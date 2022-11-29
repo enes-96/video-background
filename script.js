@@ -13,3 +13,13 @@ window.addEventListener("keydown", (e) => {
     }
   }
 });
+
+window.addEventListener("click", () => {
+  if (video.paused) {
+    video.play();
+    overlay.classList.toggle("hide");
+  } else {
+    video.pause();
+    overlay.classList.toggle("hide");
+  }
+});
