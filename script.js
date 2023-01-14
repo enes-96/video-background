@@ -68,17 +68,17 @@ window.addEventListener("keydown", (e) => {
       video.pause();
     }
   }
-  if (e.key === "m") {
+  if (e.key === "m" || e.key === "M") {
     if (video.volume == 0) {
       video.volume = 0.5;
     } else {
       video.volume = 0;
     }
   }
-  if (e.key === "f") {
+  if (e.key === "f" || e.key === "F") {
     video.currentTime -= 10;
   }
-  if (e.key === "j") {
+  if (e.key === "j" || e.key === "J") {
     video.currentTime += 10;
   }
   if (e.key === "ArrowUp") {

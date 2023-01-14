@@ -32,3 +32,14 @@ button {
   cursor: pointer;
   color: whitesmoke;
 }
+.modal {
+  list-style: none;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  opacity: 0.1;
+  transition: all 1s;
+}
+.modal:hover {
+  opacity: 1;
+}
