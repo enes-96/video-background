@@ -8,11 +8,20 @@
     <script src="script.js" defer></script>
     <title>Video Background</title>
   </head>
+  <header>
+    <h1>Video Player</h1>
+  </header>
   <body>
-    <video src="/video/video.mp4"></video>
-    <div class="overlay">
-      <h1>Paused</h1>
-      <p>Press Space</p>
+    <div class="video-container">
+      <video id="video" src="/video/video.mp4"></video>
+    </div>
+    <div class="buttons-wrapper">
+      <button id="" class="video-buttons">-10</button>
+      <button id="" class="video-buttons">+10</button>
+      <button id="play" class="video-buttons">play</button>
+
+      <button id="" class="video-buttons">+vol</button>
+      <button id="" class="video-buttons">-vol</button>
     </div>
   </body>
 </html>
